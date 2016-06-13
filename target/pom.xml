@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+   <groupId>com.angular2.seed</groupId>
+    <artifactId>angular2seed</artifactId>
+    <name>angular2-seed</name>
+<version>0.1.0-SNAPSHOT</version>
+    <packaging>jar</packaging>
+	<properties>
+<spring.boot.version>1.3.3.RELEASE</spring.boot.version>
+        <spring.boot.maven.plugin.version>1.4.0.M1</spring.boot.maven.plugin.version>
+<maven.assembly.plugin.version>2.5.4</maven.assembly.plugin.version>
+        <maven.compiler.plugin.version>3.5</maven.compiler.plugin.version>
+        <maven.enforcer.plugin.version>1.0.1</maven.enforcer.plugin.version>
+        <maven.min.version>3.0.3</maven.min.version>
+        <maven.war.plugin.version>2.6</maven.war.plugin.version>
+        <maven.resources.plugin.version>2.7</maven.resources.plugin.version>
+		<build_mode>prod</build_mode>
+		<npm.version>3.6.0</npm.version>
+		<node.version>v4.3.1</node.version>
+        <clean.plugin.version>3.0.0</clean.plugin.version>
+        <exec.plugin.version>1.5.0</exec.plugin.version>
+	</properties>
+
+   
+    <dependencies>
+        
+<dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.11</version>
+            <scope>test</scope>
+        </dependency>
+ <dependency>
+            <groupId>io.ddavison</groupId>
+            <artifactId>conductor</artifactId>
+            <version>2.2.2</version>
+        </dependency>
+    </dependencies>
+
+   
+</project>
